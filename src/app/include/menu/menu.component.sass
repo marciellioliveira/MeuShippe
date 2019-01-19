@@ -29,10 +29,14 @@ nav #navbarSupportedContent button:hover
 	position: absolute
 
 .row #itensMenu
-	background-color: $bg-menu1
+	//background-color: $bg-menu1
+	background-color: green
+	//padding-left: 0!important
+
 
 .row #itensMenu nav 
 	background-color: $bg-menu1!important
+
 
 #subMenu
 	background-color: $bg-menu2
@@ -48,3 +52,14 @@ nav #navbarSupportedContent button:hover
 	margin-top: 5%
 	font-size: 25px
 
+
+//Remove margins e paddins das colunas.
+.row.no-gutters 
+  margin-right: 0
+  margin-left: 0
+
+  & > [class^="col-"],
+  & > [class*=" col-"] 
+    padding-right: 0
+    padding-left: 0
+  
